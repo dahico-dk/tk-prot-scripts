@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129e5d8ef9d57fd41a8c3f31d5e3fc30, type: 3}
+  m_Name: LaserRifle
+  m_EditorClassIdentifier: 
+  melee: 0
+  elemental: 0
+  attackradius: 25
+  attackPower: 100
+  knockBack: 0
+  knockBackPower: 5
+  attackSpeed: 0.1
+  element: {fileID: 0}
+  elementalDuration: 0
+  elementalAttackPower: 0
+  EffectName: 
+  elementedEffect: {fileID: 0}
+  hitEffect: {fileID: 0}
+  aoe: 0
+  aoerange: 0
+  rangedprefab: {fileID: 2920113062061622869, guid: 01a616eee9830bf43a852f43c908be28,
+    type: 3}
+  projectilespeed: 40
+  launchSound: {fileID: 8300000, guid: b45b19776b2e15e48947a75b76ccca86, type: 3}
+  explosionSound: {fileID: 8300000, guid: 074cee5e8624aa4428300be00e1d2bd2, type: 3}

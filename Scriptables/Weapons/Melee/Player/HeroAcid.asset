@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d48ab12731464a47a011b6e46789ecc, type: 3}
+  m_Name: HeroAcid
+  m_EditorClassIdentifier: 
+  melee: 1
+  elemental: 1
+  attackradius: 3
+  attackPower: 20
+  knockBack: 0
+  knockBackPower: 5
+  attackSpeed: 0.3
+  element: {fileID: 2989732350827440922, guid: a54aaa5123699014e80e364f68acf9a8, type: 3}
+  elementalDuration: 5
+  elementalAttackPower: 5
+  EffectName: Acid
+  elementedEffect: {fileID: 167252, guid: 079e88ca2a52fd34183551b0e547f61d, type: 3}
+  hitEffect: {fileID: 173314, guid: 4d3473d4bd4973043a81c15073823353, type: 3}
+  damageMultiplier: 1
+  typer: 2

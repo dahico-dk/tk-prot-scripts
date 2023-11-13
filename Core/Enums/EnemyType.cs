@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Core
+{
+    public enum EnemyType
+    {
+        DarkTreant,
+        DemonWolf,
+        Ghost,
+        KingCobra,
+        Lich,
+        OneEyedBat,
+        OneEyedWizard,
+        ScareCrow,
+        SkeletonMage,
+        SkeletonArcher,
+        SkeletonWarrior,
+        SpiderVenom,
+        UndeadNecro,
+        WraithMage,
+        WraithWarrior
+    }
+}

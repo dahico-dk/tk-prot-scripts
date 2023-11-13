@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AOE
+  m_EditorClassIdentifier: Assembly-CSharp:Core.Weapons:SpecialAttack
+  melee: 0
+  elemental: 1
+  attackradius: 20
+  attackPower: 20
+  knockBack: 1
+  knockBackPower: 30
+  attackSpeed: 0
+  element: {fileID: 2989732350827440922, guid: 70113427c6fafd14c9ea316b8d5b2dca, type: 3}
+  elementalDuration: 0
+  elementalAttackPower: 40
+  EffectName: 
+  elementedEffect: {fileID: 0}
+  hitEffect: {fileID: 0}
+  isItUltimate: 0
+  Cooldown: 10
+  Active: 1
+  UltimateSpawn:
+  - {fileID: 2836004475591695743, guid: f432554f564e69242897607d34218939, type: 3}
